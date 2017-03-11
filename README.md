@@ -5,7 +5,7 @@ OHUI support firefox plugins，Flash display(need extra 10MB space, for flash pl
 demo (support flash23.0) download(23MB)：http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0_flash.rar
 
 taobao：https://item.taobao.com/item.htm?id=545145081484
-ＱＱ group：  264695584 (technology support goup for firefox embedding development，service for paying users during firefox embedding develop)
+ＱＱ group：  264695584 (QQ group for technology support on firefox embedding development)
 demo download(13MB)：http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0.rar
 demo source be send by email, after order it, please remain email for receive demo source.
 
