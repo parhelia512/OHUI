@@ -20,3 +20,4 @@ http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0.rar(13MB)
 
 http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0_flash.rar(23MB)
 
+https://groups.google.com/d/forum/other-hill-gui
