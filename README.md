@@ -16,6 +16,12 @@ csdn blog:http://blog.csdn.net/otherhill/article/details/73696611
 OHUI develop under visual studio 2010, ultimate package size is 13MB. not rely on other  UI library. use windows sdk only，can embed into other project ,e.g.  QT,MFC,WxWidget project. OHUI is open source, but not free.
 the url  on cfg.ini, is  full html path which will be loaded.  for Chinese path, please use escape encode, or copy it from browser's address directly. You can use http://, https://, file:///, to load html file.default url is ./webui/index.html 
 
+#OHUI V52 Demo for Linux 
+Support libc-2.12，gtk+-3.0 3.4.4 and Linux x64， package all kinds of .so dependence，
+under most Linux x86_64，run  directly after unzip it
+http://oltag.com:8080/yaolixing/18/11/00/v52/ffv52_libc2.12_20180523.tar.gz (100MB):
+http://oltag.com:8080/yaolixing/18/11/00/v52/ffv52_libc2.12_20180523.tar.gz
+
 他山界面演示v22.0.rar(13MB):
 http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0.rar
 
