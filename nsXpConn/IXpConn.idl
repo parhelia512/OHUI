@@ -1,0 +1,10 @@
+#include "nsISupports.idl"
+#include "nsIDOMWindow.idl"
+
+[scriptable, uuid(2077A08D-5D1B-48A4-BD14-99A43AD008F7)]
+interface nsIOhsXpConn: nsISupports
+{
+  long Add(in long a, in long b);
+  long Exec(in ACString p,in ACString q);
+ 
+};
