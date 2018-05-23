@@ -29,5 +29,6 @@ http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0.rar
 http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0_flash.rar
 
 https://groups.google.com/d/forum/other-hill-gui
+http://bbs.oltag.com or http://bbs.otherhill.com (now no arrived)
 
 ![他山定时 v1.0.7](http://oltag.com:8080/yaolixing/18/00/13/%E4%BB%96%E5%B1%B1%E5%AE%9A%E6%97%B6v1.0.7.png)
