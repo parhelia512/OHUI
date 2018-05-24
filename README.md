@@ -1,7 +1,7 @@
 # OHUI
 Other Hill Gui Development Framework, abbreviation OHUI,embedding Gecko 52.0，developers can write html on ff52.0,then load it with OHUI.support all the same display effection as  ff52.0，include xul,html(5),css(3),js,flash,  support js vs c++ call each other, for the limition of html5 and css3, you can refer firefox52.0.
 
-![他山定时 v1.0.7](http://oltag.com:8080/yaolixing/18/00/13/%E4%BB%96%E5%B1%B1%E5%AE%9A%E6%97%B6v1.0.7.png)
+![PNG](images/OtherHillTimerv1.0.7.png)
 
 OHUI support firefox plugins，Flash display(need extra 10MB space, for flash plugins 23.0), no support firefox extension now.
 Demo (support flash23.0) download(23MB)：http://oltag.com:8080/yaolixing/18/10/07/他山界面演示v22.0_flash.rar
