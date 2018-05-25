@@ -37,4 +37,6 @@ http://bbs.oltag.com or http://bbs.otherhill.com (now no arrived)
 
 compile firefox v52,you can follow 
 https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Firefox_build
+![PNG](images/2018-05-26snowfly.png)
+
 
