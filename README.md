@@ -18,8 +18,7 @@ csdn blog:http://blog.csdn.net/otherhill/article/details/73696611
 
 163 blog:http://yaolixing01.blog.163.com/blog/static/6674173320171473748180/
 
-OHUI v52 develop under visual studio 2015. not rely on other  UI library. use windows sdk only，can embed into other project ,e.g.  QT,MFC,WxWidget project.
-the url  on cfg.ini, is  full html path which will be loaded.  for Chinese path, please use escape encode, or copy it from browser's address directly. You can use http://, https://, file:///, to load html file.default url is ./webui/index.html 
+OHUI v52 demo open the url  on cfg.ini, url is  full html path which will be loaded.for Chinese path, please use escape encode, or copy it from browser's address directly. You can use ftp://, http://, https:// and  file:///, to load html file.default url is ./webui/index.html 
 
 OHUI V52 Demo for Linux 
 Support libc-2.12，gtk+-3.0 3.4.4 and Linux x64， package all kinds of .so dependence，
