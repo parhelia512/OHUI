@@ -304,7 +304,7 @@ int main (int argc,char *argv[])
 
     // We do this because of data in bug 771745
     XPCOMGlueEnablePreload();
-    
+
   	rv = XPCOMGlueStartup(xpcom_path);
 	  if (NS_FAILED(rv))
     {
@@ -313,7 +313,9 @@ int main (int argc,char *argv[])
  
     
     rv = XPCOMGlueLoadXULFunctions(kXULFuncs);
-        
+
+
+
     nsCOMPtr<nsIFile> nsBinPath;
     rv = XRE_GetFileFromPath(xpcom_path, getter_AddRefs(nsBinPath));
     
@@ -339,6 +341,9 @@ int main (int argc,char *argv[])
   {
       messagebox(GTK_WINDOW (wnd), "XRE_InitEmbedding error: %s", xpcom_path);
   }
+      
+  theApp.InitInstance();
+
   StartupProfile();//must be call after  XRE_InitEmbedding    
 	nsCOMPtr<nsIAppStartup> appStartup(do_GetService(NS_APPSTARTUP_CONTRACTID));
 	if (appStartup) {
@@ -359,7 +364,7 @@ int main (int argc,char *argv[])
     //must be  register after  all default's extension have been registered! do that, we can just overlay default's services 
     //rv = XRE_AddStaticComponent(&kWndPromptServiceModule); 
 
-    theApp.InitInstance();
+
 
     char *shortUrl=0;
     std::string sIniFile = g_pchCurrFullPath;
