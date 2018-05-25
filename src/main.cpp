@@ -301,7 +301,10 @@ int main (int argc,char *argv[])
     sCompPath = new char[strlen(xpcom_path)+100];
     strcpy(sCompPath, xpcom_path);
     strcat(sCompPath, "components/");
-  
+
+    // We do this because of data in bug 771745
+    XPCOMGlueEnablePreload();
+    
   	rv = XPCOMGlueStartup(xpcom_path);
 	  if (NS_FAILED(rv))
     {
