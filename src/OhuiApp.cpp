@@ -29,6 +29,8 @@ COhuiApp::~COhuiApp(void)
 PRBool  COhuiApp::InitInstance()
 {
 	//OverrideComponents();
+    // This will set this thread as the main thread.
+    NS_LogInit(); 
 	InitializeWindowCreator();
 	return 0;
 }
@@ -36,7 +38,8 @@ PRBool  COhuiApp::InitInstance()
 int  COhuiApp::ExitInstance()
 {
 
-
+    // InitXPCOMGlue calls NS_LogInit, so we need to balance it here.
+    NS_LogTerm();
 	return 0;
 }
 
