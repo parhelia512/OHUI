@@ -18,8 +18,7 @@ csdn blog:http://blog.csdn.net/otherhill/article/details/73696611
 
 163 blog:http://yaolixing01.blog.163.com/blog/static/6674173320171473748180/
 
-
-OHUI develop under visual studio 2010, ultimate package size is 13MB. not rely on other  UI library. use windows sdk only，can embed into other project ,e.g.  QT,MFC,WxWidget project.
+OHUI v52 develop under visual studio 2015. not rely on other  UI library. use windows sdk only，can embed into other project ,e.g.  QT,MFC,WxWidget project.
 the url  on cfg.ini, is  full html path which will be loaded.  for Chinese path, please use escape encode, or copy it from browser's address directly. You can use http://, https://, file:///, to load html file.default url is ./webui/index.html 
 
 OHUI V52 Demo for Linux 
