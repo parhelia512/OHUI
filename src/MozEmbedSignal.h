@@ -2,14 +2,7 @@
 #ifndef MOZEMBEDSIGNAL_H_6768785
 #define MOZEMBEDSIGNAL_H_6768785
 
-#include <mozilla-config.h>
-#include <xpcom-config.h>
-
-#include <stddef.h>
-#include <gtk/gtk.h>
-
-
-/* signals */
+#include "stdafx.h"
 
 enum {
   DOM_LOADCOMPLETED,

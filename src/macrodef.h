@@ -14,7 +14,7 @@
 #endif
 
 #ifndef nullptr
-#define nullptr 0
+//#define nullptr ((void*)0)
 #endif
  
 #ifndef nsnull

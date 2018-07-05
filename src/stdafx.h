@@ -6,7 +6,7 @@
 #define nsnull NULL
 #endif
 
-
+#define GDK_VERSION_MIN_REQUIRED GDK_VERSION_3_0
 #include <mozilla-config.h>
  
 #include "mozilla/mozalloc.h"
